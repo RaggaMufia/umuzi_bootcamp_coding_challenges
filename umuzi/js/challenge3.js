@@ -8,5 +8,5 @@ function maxNum() {
 }
 
 //play around with the values below
-max = maxNum(10000, -40003, 110);
+max = maxNum();
 console.log(max);

@@ -1,0 +1,55 @@
+body {
+    margin-top: 50px;
+}
+
+
+header {
+    background-color: grey;
+}
+.challenge1 {
+    text-align: center;
+    align-content: center;
+    background-color: lightslategray;
+    height: 120%;
+    width: 80%;
+    margin-left: 60px
+}
+
+.challenge2 {
+    background-color: lightslategray;
+    text-align: center;
+    align-content: center;
+    margin-left: 60px;
+    height: 120%;
+    width: 80%;
+}
+
+.challenge3 {
+    background-color: lightslategray;
+    text-align: center;
+    align-content: center;
+    margin-left: 60px;
+    height: 120%;
+    width: 80%;
+}
+
+.challenge4 {
+    background-color: lightslategray;
+    text-align: center;
+    align-content: center;
+    margin-left: 60px;
+    height: 120%;
+    width: 80%;
+}
+.input[type=number] {
+    height: 180px;
+    width: 60px;
+}
+form input[type=submit] {
+    height: 60px;
+    width: 350px;
+}
+
+.main-wrapper {
+    margin-top: 20px;
+}

@@ -10,6 +10,7 @@ function compareChars(str1, str2) {
         if (str2.indexOf(str1[i]) !== -1 && arr.indexOf(str1[i]) !== -1) {
             arr.push(str1[i]);
         }
+        i++;
     }
     return arr.join("");
 }

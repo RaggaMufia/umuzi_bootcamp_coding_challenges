@@ -1,5 +1,3 @@
-//challenge one variables: global
-
 
 //Global challenge2 variables
 var num1 = 7;
@@ -41,6 +39,7 @@ function checkSum() {
 }
 document.getElementById('btn-1').addEventListener('click', checkSum);
 var result = checkSum();
+console.log(result);
 
 
 
@@ -62,7 +61,7 @@ function maxNum() {
 
 //play around with the values below
 max = maxNum();
-
+console.log(max);
 //functions for challenge4
 function evaluateHour(hours) {
     if (hours == 1) {
@@ -108,5 +107,5 @@ function compareStrings(str1, str2) {
     
     return arr;
 }
-compareStrings('These are the strings', 'To be compared to each other');
-
+var comp = compareStrings('These are the strings', 'To be compared to each other');
+console.log(comp);

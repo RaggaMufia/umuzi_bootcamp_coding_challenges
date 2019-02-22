@@ -7,8 +7,8 @@ function compareChars(str1, str2) {
     var arr = [];
     var i = 0;
     while (i < str1.length) {
-        if (str2.indexOf(str1[i]) !== -1 && arr.indexOf(str1[i]) === -1) {
-            arr.push(str1[i]);
+        if (p.indexOf(s[i]) !== -1 && arr.indexOf(s[i]) === -1) {
+            arr.push(s[i]);
         }
         i++;
     }

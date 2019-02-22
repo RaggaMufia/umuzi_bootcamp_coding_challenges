@@ -28,7 +28,7 @@ function evaluateMin(min) {
 }
 
 //The main function, it converts any number into hours and minutes and prints to the console
-function toMinuteSeconds(num) {
+function toMinuteSeconds() {
     min = (num % 60);
     hours = Math.floor(num / 60);
     degrees = evaluateHour(hours);
